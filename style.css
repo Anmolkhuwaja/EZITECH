@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.details{
+    padding-left: 90px;
+}
+
+.foont{
+    font-size: 13px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* Hero Section CSS */
+.hero-section{
+    width: 100%;
+    height: 730px;
+    background: url(/pictures/Hero\ img.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 81, 245, 0.51);
+}
+
+.list{
+    list-style-type: none;
+}
+
+.item:hover{
+    color: #0954a3;
+}
+
+.web{
+    color: #6EC1E4;
+}
+
+.hero-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    margin-top: 140px;
+}
+
+.wid{
+    width: 30%;
+    margin-left: 460px;
+    border-radius: 6px;
+}
+
+.icon{
+    color: gainsboro;
+}
+
+.focus{
+    outline: none;
+}
+
+.icon:hover{
+    color: darkslategray;
+}
+
+.Logo-img1{
+    width: 200px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Logo-img2{
+    width: 150px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.Logo-img3{
+    width: 240px;
+    margin-left: 40px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.back:hover{
+    background-color: rgb(30, 134, 75);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.Sicon{
+    border: 3px solid white;
+    padding: 2px 3px 3px 2px;
+    width: 30px;
+    height: 30px;
+}
+
+/* cards CSS */
+.row1{
+    padding: 0px 100px;
+}
+
+.card1{
+    box-shadow: -1px 3px 25px -3px rgba(0,0,0,0.2);
+    height: 170px;
+    width: 160px;
+    border-radius: 20px;
+    scale: 1;
+}
+
+/* Courses */
+.all{
+    height: 75vh;
+    width: 560px;
+    border: 0.5px solid lightgray;
+}
+.head-text{
+    width: 560px;
+    height: 120px;
+    background-color: #1134a9;
+}
+
+.web-heading{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.course{
+    margin-left: 250px;
+}
+
+.js-img{
+    width: 140px;
+    padding: 20px 20px;
+}
+
+.js-text{
+    color: #273044;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.js-main{
+    height: 80px;
+}
+
+.js-price{
+    color: #888888;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.space{
+    margin-left: 150px;
+}
+
+.box{
+    width: 370px;
+    height: 370px;
+    border-radius: 15px;
+    box-shadow: -1px 3px 25px -3px rgba(0,0,0,0.2);
+}
+
+.box:hover{
+    z-index: 1;
+    box-shadow: -1px 3px 25px -3px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
+.yaho{
+    width: 367px;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+    background: url(./pictures/code.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 255, 0.6)
+}
+
+.hori{
+    margin-top: -8px;
+    width: 145px;
+}
+
+.ezitech{
+    margin-top: -10px;
+}
+
+.employ{
+    color: #042d89;
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+.hybrid{
+    background-color: #F0F7F4;
+    padding: 0px 8px 6px 0px;
+    border-radius: 12px;
+    margin-top: 7px;
+}
+
+.card2{
+    margin-top: -25px;
+    margin-left: 5px;
+}
+
+.readbtn{
+    background-color: #0954a3;
+    margin-left: 120px;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+.readbtn:hover{
+    background-color: #072485;
+}
+
+.leftSpace{
+    margin-left: 603px;
+    margin-top: 40px;
+}
+
+.mobile-main{
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.circle-img{
+    width: 450px;
+    position: relative;
+    margin-left: 230px;
+}
+
+.mobile{
+    position: absolute;
+    top: 555%;
+    width: 450px;
+    margin-left: 160px;
+}
+
+.neavyblue{
+    color:#1068c6;
+}
+
+.mobile-text{
+    color: #273044;
+    font-size: 50px;
+}
+
+.mobile-para{
+    color: #273044;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.laptop{
+    width: 100%;
+    height: 680px;
+    background: url(/pictures/laptop.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 15, 201, 0.8);
+}
+
+.footer{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-color: #042d89;
+}
+
+.footer-text{
+    font-size: 14px;
+    color: white;
+}
+
+.text{
+    font-size: 13px;
+}
+
+.footer-text:hover{
+    color: #174cc8;
+    cursor: pointer;
+}
+
+.ali{
+    color: #AAAAAA;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.whatsapp-btn{
+    border: none;
+    background: #356AC6;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    box-shadow: -3px 3px 12px 1px rgba(0,0,0,0.52);
+    cursor: pointer;
+}
+
+.need{
+    color: #2f3030;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 8px 22px;
+    cursor: pointer;
+}
+
+.mar{
+    margin-top: 90px;
+}
